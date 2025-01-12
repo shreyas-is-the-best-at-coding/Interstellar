@@ -17,6 +17,10 @@
    text-shadow: 2px 4px 6px rgb(0, 0, 0, 0.2);
 }
 
+.title:hover {
+   transform: translateY(-5%) scale(1.03);
+   font-weight: 800;
+}
 
 @media (orientation: portrait) {
    .title {
@@ -91,11 +95,4 @@ input {
    margin-top: -2em;
    padding: 0;
    font-family: "Poppins", sans-serif;
-}
-
-.blue {
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
-}
-.gree {
-    text-shadow: 0 0 5px #52bc7f, 0 0 10px #52bc7f, 0 0 15px #52bc7f;
 }
