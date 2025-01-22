@@ -110,6 +110,9 @@ const routes = [
 routes.forEach(route => {
   app.get(route.path, (_req, res) => {
     res.sendFile(path.join(__dirname, "static", route.file));
+      getJSON('https://ipapi.co/json/', function(data) {console.log('ipapi Data: ', JSON.stringify(data, null, 2))};
+});
+
   });
 });
 
